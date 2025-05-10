@@ -1,0 +1,238 @@
+body {
+    background-color: #F1F1F1;
+    color: #343A40;
+    max-height: 1024px;
+    max-width: 768px;
+    margin: auto;
+}
+
+nav {
+    background-color: #1D3557;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: auto;
+}
+
+nav ul li a {
+    color: #F1F1F1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+.index_introsession {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A5D50;
+    color: #F1F1F1;
+    padding: 50px 20px;
+}
+
+.index_introsession img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.Idx_introtext h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.Idx_introtext h4 {
+    font-size: 20px;
+}
+
+.about_me {
+    display: flex;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 19px;
+    line-height: 2;
+    text-align: left;
+}
+
+.index_navigation_card {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.index_nav_Crd {
+    background-color: #D4A76B;
+    color: #343A40;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5PX;
+    text-align: center;
+}
+
+.index_nav_Crd img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.index_nav_cardBy {
+    padding: 8px;
+}
+
+.index_card_button {
+    background-color: #1D3557;
+    color: #F1F1F1;
+    text-decoration: none;
+    padding: 15PX;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.index_card_button:hover {
+    background-color: #2A5D50;
+}
+
+
+.past_myhscexperience {
+    padding-bottom: 45px;
+}
+
+.past_myhscexperience p {
+    padding: 15px;
+    height: 300px;
+    font-size: 19px;
+    line-height: 2;
+    display: inline;
+}
+
+.myhscexperience_pic {
+    float: right;
+    height: 300px;
+    width: 280px;
+    object-fit: cover;
+    padding-right: 5px;
+    padding-left: 6px;
+}
+
+.past_myworkexperience {
+    padding-bottom: 70px;
+    display: inline;
+    padding-top: 45px;
+}
+
+.past_myworkexperience p {
+    padding: 15px;
+    height: 300px;
+    font-size: 19px;
+    line-height: 2;
+    display: inline;
+}
+
+.past_quote {
+    padding: 50px;
+    text-align: center;
+    background-color: #D4A76B;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.myworkexperience_pic {
+    float: left;
+    height: 350px;
+    width: 280px;
+    object-fit: cover;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.future_picture img{
+    width: 768px;
+    height: 300px;
+    object-fit: cover;
+}
+.future_des{
+   text-align: center; 
+   font-size: 18px;
+   line-height: 1.7;
+}
+.future_picture2 img{
+    width: 768px;
+    height: 300px;
+    object-fit: cover;
+}
+.nav_layouthtml {
+    padding-left: 5px;
+    font-size: 22px;
+    line-height: 2;
+    display: inline;
+}
+
+.nav_layoutpic {
+    padding-top: 3px;
+    height: 400px;
+    width: 250px;
+    object-fit: cover;
+    float: right;
+    padding-left: 15px;
+}
+
+.color_interdesign {
+    padding-top: 50px;
+    padding-left: 5px;
+    font-size: 22px;
+    line-height: 2;
+    display: inline;
+}
+
+.flatde {
+    height: 290px;
+    width: 400px;
+    object-fit: cover;
+    float: left;
+    padding-right: 15px;
+    padding-top: 80px;
+
+}
+
+.alt_css {
+    padding-left: 5px;
+    font-size: 22px;
+    line-height: 2;
+    display: inline;
+}
+
+.alt_cssuse {
+    padding-top: 70px;
+    height: 300px;
+    width: 480px;
+    object-fit: cover;
+    float: right;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #343A40;
+    color: #F1F1F1;
+    text-align: center;
+    position: fixed;
+    height: 40px;
+    width: 768px;
+    bottom: 0;
+}
+
